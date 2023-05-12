@@ -6,6 +6,9 @@
 	margin: 0 -35px;
 	color: #fff;
 
+	&--color-blue {
+		color: #442494 !important;
+	}
 	p {
 		color: #fff;
 	}
@@ -273,6 +276,7 @@
 	&__centered-text {
 		text-align: center;
 		padding: 100px;
+
 		h2 {
 			margin-bottom: 44px;
 		}
@@ -282,6 +286,13 @@
 			letter-spacing: 0.72px;
 			font-weight: 500;
 			margin-bottom: 12px;
+		}
+
+		&--18px {
+			p {
+				font-size: 18px;
+				line-height: 25px;
+			}
 		}
 	}
 	&__image-and-text-full-right {
@@ -314,7 +325,7 @@
 		font-size: 62px !important;
 		line-height: 77px !important;
 		letter-spacing: 0.72px !important;
-		color: #f9a52e !important;
+		color: #f9a52e;
 		margin-bottom: 22px;
 	}
 
@@ -324,6 +335,10 @@
 		font-weight: 500;
 		letter-spacing: 0.72px;
 	}
+}
+
+p.general-RC__last-section-heading {
+	color: #f9a52e;
 }
 @media (max-width: 1240px) {
 	.general-RC {
